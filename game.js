@@ -37,6 +37,7 @@ const getUserChoice = (userInput) => {
       if (userChoice === "paper") {
         if (computerChoice === "scissors") {
           return "The computer won!";
+          
         } else {
           return "You won!";
         }
