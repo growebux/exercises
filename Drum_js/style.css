@@ -7,6 +7,7 @@ body{
     margin: 0;
     display: flex;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -47,5 +48,36 @@ img{
 kd{
     display: block;
     font-size: 2em;
+}
+
+.sound{
+    font-size: 10px;
+    color: rgba(238,162,133,255);
+}
+.playing{
+    border-color: rgba(238,162,133,255);
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(238,162,133,255);
+
+}
+
+.github{
+    position: absolute;
+    text-align: center;
+    margin-top: 1200px;
+}
+
+p{
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+    text-transform: lowercase;
+    font-size: 10px;
     
+}
+
+.github img{
+    height: 70px;
+    width: auto;
+    margin-bottom: 10px;
 }
