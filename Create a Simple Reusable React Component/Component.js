@@ -14,7 +14,7 @@
 )
 
     ReactDom.render(element, document.getElementById('root'))
-  </script>
+  </script> 
 </body>
 
 
