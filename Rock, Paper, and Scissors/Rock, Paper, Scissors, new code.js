@@ -3,7 +3,7 @@ const availableChoice= {
     0: "rock",
     1: "paper",
     2: "scissors"
-}
+} 
 
 const possibilities = [
     { combination: [0, 1], winner: 1 },
